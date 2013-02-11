@@ -1,0 +1,373 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14pt;
+}
+
+div#bodywrapper {
+	width: 100%;border: 1px solid #5b3306; 
+	background: #000 url('images/background2.jpg'); 
+	min-height: 400px; 
+	margin: 0; 
+	padding: 0; 
+	background-position: center -80px;
+}
+
+div#body {
+	color: white;
+	margin: 0 auto;
+	padding: 0px;
+	text-shadow: none;
+	font-family: "Trebuchet MS", arial, serif; 
+}
+
+div#main_pic {
+	border: 1px solid #333;
+	margin-top: -25px;
+	height: 184px;
+	width: 100%;
+	border-right: 0;
+	border-left: 0;
+	background: url('images/pic1.jpg') no-repeat top center;
+
+}
+	
+input.default[type=text],
+input.default[type=password]  { 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px; 
+	border: 1px solid #444; 
+	background: #555;
+	box-shadow:inset 0 0 50px #000000; 
+	color: #eee;
+	font-size: 15pt;
+	width: 100%;
+	padding: 10px;
+	size: 105;
+	text-shadow: none;
+	opacity:0.70;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+span.green {
+	color: #a7de00;
+}
+
+li.green, p.green {
+	background: #9bae15;
+	color: black;
+	text-shadow: none;
+	text-align: center;
+	padding: 10px;
+}
+
+
+.box {
+	background: #eee;
+	color: #444;
+	padding: 3px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+}
+
+td.bordered {
+	border: 1px solid #ddd;
+}
+
+.hidden {
+	padding: 10px;
+    width: 400px;
+    height: 60px;
+    display: none;
+}
+
+#nav {
+	padding: 50px 0 0 0;
+	width: 250px; 
+	margin: 0 auto;
+}
+
+/* TEXT STYLING */
+h3 {
+	margin-bottom: 0;
+}
+h1, h3 {
+	font-family: "Trebuchet MS", arial, serif; 
+}
+
+/** GENERAL STYLING **/
+.right {
+	float: right;
+}
+
+.error {
+	display: block;
+	background: #7d190b;
+	font-size: 70%;
+	padding: 7px;
+	text-align: center;
+	border: 2px dashed #4e1007; 
+}
+
+#sortable1 li{
+	background: #eee;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+
+	table.center {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	td.logo {
+		width: 70%;
+	}
+	td.login {
+		width: 30%;
+	}
+	td.indent {
+		width: 10%;
+	}
+	td.task {
+		width: 90%;
+	}
+	td.check {
+		width: 10%;
+	}
+	
+ul.small, p.small{
+	font-size: 80%;
+}
+
+.gray {
+	margin-left: 10px;	
+	color: #333;
+}
+
+.textshadow {
+	text-shadow: #000 1px 1px 2px;
+}
+
+h1.textshadow {
+	margin-left: 10px;	
+	text-shadow: #000 1px 1px 2px;
+}
+table.display  {
+	font-weight: normal;
+	line-height: 110%;
+	text-shadow: #000 1px 1px 2px;
+}
+
+table.display .colorkey div{
+	width: 140px; 
+	display: block; 
+	margin: 10px; 
+	padding: 5px;
+}
+
+table.display td.time {
+	
+	width: 50px;	
+	color: #aaa;
+	font-size: 73%;
+	background: url('images/biggerdot.png') no-repeat;
+	background-position: 15% 50%;
+	padding-left: 5%;
+}
+
+table.display td.task {
+	width: 250px;
+	color: white;
+	padding: 5px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	font-size: 75%;
+}
+
+.curved {
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+}
+
+table.display td div {
+	padding: 5px;
+	overflow: hidden;
+}
+
+table.display td strong {
+	font-size: 120%;
+}
+
+.one { background: #46711d; }
+.two { background: #cc8d03; }
+.three{ background: #6d2a0c; }
+.four { background: #00456e; }
+
+#header {
+	display: block;	
+	height: 49px;
+	overflow: hidden;
+	padding: 0;
+	background: url('images/header.jpg') repeat-x bottom;
+}
+
+#header a:link , #header a:visited , #header a:hover , #header a:active { color: white; text-decoration: none; text-shadow: none; font-size: 70%;}
+
+
+/* message display page */
+.message_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.message_list table.listDishes {
+	width: 100%;
+	border: 1px solid #444;
+}
+
+.message_list table.listDishes td {
+	padding: 0;
+}
+
+.message_list table.listDishes td.delete {
+	background: #000;
+	padding: 0;
+	width: 10%;
+	opacity:0.90;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.message_list li {
+	padding: 0;
+	margin: 0;
+}
+.message_head {
+	background: black;
+	padding: 5px 10px;
+	color: white;
+	cursor: pointer; 
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	text-shadow: none;
+	opacity:0.70;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.message_head a.dishlist:link, .message_head a.dishlist:visited, .message_head a.dishlist:hover, .message_head a.dishlist:active {
+	display: block; 
+	height: 40px; 
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-weight: bold;
+	font-size: 80%;
+	font-family: "Trebuchet MS", Arial;
+}
+
+.message_body {
+	border-top: 1px dotted #555;
+	padding: 5px 10px 15px;
+	background: #222;
+	opacity:0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier */
+}
+
+.message_body table {
+	color: white;
+	text-shadow: none;
+	font-size: 75%;
+}
+
+.red {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #55aaee;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #55aaee, #003366);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#55aaee), to(#003366));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+.yellow {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #cc8d03;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #cc8d03, #885d00);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#cc8d03), to(#885d00));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+
+.blue {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #e15524;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #e15524, #663000);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#e15524), to(#663000));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+
+.green {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #6ab136;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #6ab136, #1e4700);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#6ab136), to(#1e4700));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+
+.purple {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #964de0;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #964de0, #25004a);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#964de0), to(#25004a));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+
+.pink {
+/* default background colour, for all layout engines that don't implement gradients */
+background: #b94b87;
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #b94b87, #5f0033);
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#b94b87), to(#5f0033));
+color: #fff; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
+}
+
+.task a {
+	color: white;
+	padding: 5px;
+	float: left; 
+	height: 100%; 
+	width: 44%; 
+	display: block;
+}
+
+.task .white {
+	color: white;
+	text-decoration: none;
+}
